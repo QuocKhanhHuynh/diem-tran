@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>HPBD PA</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/css01.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <audio id="bg-music" controls autoplay loop class="bg-music-player">
+        <source src="ms/hpbd.MP3" type="audio/mpeg" />
+    </audio>
+
+    <div class="container-fluid">
+        <div class="jumbotron img_banner_hpbd">
+            <div class="text-center text-danger bg-danger">
+                <h1>TO: Diễm Trân</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row ">
+            <div class="col-xs-4 col-md-4 col-sm-4">
+                <p style="padding-top: 5px"></p>
+                <span class="text-capitalize text-right bottom-align-text">
+                    <!-- <button type="button" class="btn btn-danger btn-lg text-danger" data-toggle="modal" data-target="#myModal">
+                        OPEN CARD
+                    </button> -->
+                    <p></p>
+            </div>
+            <div id="bond" class="col-xs-8 col-md-8 col-sm-8 text-center">
+                <!-- <button type="button" class="">
+
+                    </button> -->
+                <img data-toggle="modal" data-target="#myModal" class="media-object img-responsive img-thumbnail bg-snow-tranparent-hidden hero-img"
+                    src="img/Winter happy birthday.jpg" alt="80x80px">
+                <p class="click-hint">Click vào đây có điều bất ngờ</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title text-info" id="myModalLabel">Thiệp sinh nhật</h4>
+
+                </div>
+                <div class="modal-body">
+                    <div class="containeri">
+                        <img class="img img-responsive modal-img" src="img/Winter happy birthday.jpg" alt="80x80px">
+                    </div>
+                    <h1 class="heading text-danger bg-danger">
+                        <div class="containeri">
+                            <img class="img img-responsive" src="img/Snowmen-and-Sledding-Thank-You-Note.jpg.png">
+                            <p class="dear-line">Diễm Trân</p>
+                            <p class="birthday-message">Chúc mừng sinh nhật Diễm Trân! Chúc em tuổi mới thành công, may mắn và luôn vui vẻ em nhé!</p>
+                        </div>
+                    </h1>
+                    <div class="containeri">
+                        <img class="img img-responsive" src="img/dt.png">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-primary">OK</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <!-- required, default behaviour -->
+    <script src="js/snowstorm-min.js"></script>
+    <script src="js/js01.js"></script>
+
+</body>
+
+</html>
